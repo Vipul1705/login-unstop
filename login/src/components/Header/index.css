@@ -1,0 +1,11 @@
+.header {
+  font-size: 36px;
+  font-weight: 500;
+  color: #1c1b1f;
+}
+
+.header > span {
+  color: #6358dc;
+  font-weight: 900;
+  font-size: 48px;
+}

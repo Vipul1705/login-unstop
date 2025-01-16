@@ -1,0 +1,79 @@
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 25px 24px;
+}
+
+.image-container {
+  width: 540px;
+  height: 540px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .login-container {
+    padding: 25px 20px;
+    justify-content: center;
+  }
+  .image-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .login-container {
+    padding: 25px 25px;
+    justify-content: center;
+  }
+  .image-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  .login-container {
+    padding: 35px 34px;
+    justify-content: space-between;
+  }
+  .image-container {
+    width: 480px;
+    height: 480px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .login-container {
+    padding: 45px 44px;
+    justify-content: space-between;
+  }
+  .image-container {
+    width: 540px;
+    height: 540px;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1440px) {
+  .login-container {
+    padding: 55px 54px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .login-container {
+    padding: 75px 74px;
+    justify-content: center;
+    gap: 50px;
+  }
+  .image-container {
+    width: 720px;
+    height: 720px;
+  }
+}

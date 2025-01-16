@@ -1,0 +1,56 @@
+.home {
+  display: flex;
+  gap: 113px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.avatar-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  box-shadow: #000000a6;
+}
+
+.avatar-img-container {
+  width: 120px;
+  height: 120px;
+}
+
+.user-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-details-container > h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: center;
+  color: #6358dc;
+}
+
+.user-details-container > div {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.26px;
+  text-align: center;
+  color: #383838;
+}
+
+.logout-button {
+  border-radius: 16px !important;
+  background-color: #6358dc !important;
+  display: flex !important;
+  gap: 10px !important;
+  padding: 27px 31px !important;
+  width: 100% !important;
+}
