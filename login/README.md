@@ -10,3 +10,13 @@ Currently, two official plugins are available:
 # How to start development server
 
 npm run dev
+
+# Navigation
+
+### Login Page
+
+Route: /auth/login
+
+### Home Page
+
+Route: /home
