@@ -9,6 +9,7 @@ Currently, two official plugins are available:
 
 # How to start development server
 
+npm install
 npm run dev
 
 # Navigation
